@@ -1,111 +1,125 @@
-<!DOCTYPE html>
-<html><head><meta charset=UTF-8">
-	<title>benefits of baby massage</title>
-	<link href="style2.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<nav><ul><li>Home</li><li>Course</li><li><a href='benefits.html'>Benefits</a></li><li>Testimonials</li><li>Gallery</li>
-</ul></nav>
-<div>
-<div class="container">
-<div class="box2">
-<!--start single box-->
-<div class="col">
-	<div class="view">
-		<br><br> 
-		<img src="sleep" alt="A photo of sleeping baby">
-		<h3>improves quality<br>of sleep</h3>
-		<div class="mask">
-			<p>Infant massage helps to calm, soothe, and decrease the level of stress hormones in babies. This can be especially useful if you give your little one a massage as part of your nighttime routine. Some studies even show that 15 minutes of infant massage before bedtime can help your baby sleep deeper and more soundly.</p>
-		</div>
-	</div>
-</div>
+/* style2.css */
+* {box-sizing: border-box;}
+body {  line-height: 1.42857143;
+background-color:#90c0ff}
+img {  vertical-align: middle;}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-<div class="col">
-	<div class="view">
-		<br><br> 
-		<img src="bond" alt="A baby in his mother's arms">
-		<h3>bonding</h3>
-		<div class="mask">
-			<p>Infant massage is shown to help increase attachment between baby and parents, and can even benefit mamas experiencing postpartum depression or anxiety. The reason? During these sweet bonding moments, the release of oxytocin (also known as the love hormone) can increase happy feelings.</p>
-		</div>
-	</div>
-</div>
-<div class="col">
-	<div class="view">
-		<br><br> 
-		<img src="motion" alt="A photo of baby trying to crawl">
-		<h3>developmental<br>milestones</h3>
-		<div class="mask">
-			<p>Massage prepares your baby's little body for physical activity.</p>
-			<p >It encourages muscular
-coordination and flexibility and helps as the baby stretches, moves
-around and grows.</p>
-		</div>
-	</div>
-</div>
-	<div class="clearfix"></div>
-	</div>
-	</div>
-	</div>
-	<div >
-		<div class="container">
-			<div class="box2">
-				<div class="col"><a href="http://www.tenachtours.com/#">
-						</a><div class="view view-fifth"><a href="http://www.tenachtours.com/#">
-							<br><br> <img src="./Tenach Tours_files/letter-d-64.png" alt="">
-					</a>
-					<div class="mask">
-						<p>Alexander the Great brought enlightened Greek civilisation with him when he marched into the land of
-							Israel in 332 BCE. Ultimately though, Greek culture would conflict with Torah values and ignite a clash of
-							civilizations in the land of Israel during the Second Temple period. Come and see the 'beauty of Yafet'
-							and meet some of the personalities that we faced off at the time of the Chanukah story and during the
-							Hellenistic domination of the land of Israel.</p>
-						<p class="p2"></p>
-					</div>
-					<h3>Alexander the Great <br>and the Maccabian Revolt</h3>
-				</div>
-				
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {.col{ float: left;
+width: 33.33333333%;  }
+}
 
-			</div>
-			<div class="col s-2"><a href="http://www.tenachtours.com/#">
-					</a><div class="view view-fifth"><a href="http://www.tenachtours.com/#">
-						<br><br> <img src="./Tenach Tours_files/letter-e-64.png" alt="">
-				</a>
-				<div class="mask">
-					<p>From the year 63 BCE when the Roman General Pompeii marched into Judea and the Temple, the Jews would live
-						under Roman rule and patronage for over five centuries. Come and meet some of the people whose policies
-						deeply affected the lives of the Jews in the Empire. Come and see the soldiers who burned down Jerusalem in
-						70 CE. Come to grips with a civilization that laid the foundation for today’s democracy and yet became the
-						nemesis of the Jewish people in the first century CE..</p>
-					<p class="p2"></p>
-				</div>
-				<h3>Rome<br>and the Jews</h3>
-			</div>
-			
+.container:before,
+.container:after,
+.modal-footer:before,
+.modal-footer:after {
+  display: table;
+  content: " ";
+}
 
-		</div>
-		<div class="col s-3"><a href="http://www.tenachtours.com/#">
-				</a><div class="view view-fifth"><a href="http://www.tenachtours.com/#">
-					<br><br> <img src="./Tenach Tours_files/letter-f-64.png" alt="">
-			</a>
-			<div class="mask">
-				<p>Nebuchadnezzar in his famous dream envisioned a colossal statue made of four elements, each representing
-					another World Empire under whose domination the Jewish people would live. Travel back in time to experience
-					the four very different cultures that first subdued and then attempted to absorb the eternal people. Surround
-					yourself with artefacts hailing from a glorious past and imagine the long journey of our people.</p>
-				<p class="p2"></p>
-			</div>
-			<h3>The Four<br>Galuyot/Exiles</h3>
-		</div>
-		
-
-	</div>
-	<div class="clearfix"></div>
-	</div>
-	</div>
-	</div>
-	<!--end-moretours-->
-	
-
-</body></html>
+.container:after,
+.container-fluid:after,
+.modal-footer:after {
+  clear: both;
+}
+h3{
+	margin:0;
+   font-family: 'AllertaStencil-Regular';
+    font-weight: 400;
+	color:#fff;
+	font-size:1.3em;
+	margin-top: 20%;
+	text-transform: uppercase;
+	line-height:1.5em;
+}	
+p{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+.box2 {
+    margin: 4% 0% 2% 4%;
+}
+.view {
+  	width: 279px;
+	height: 330px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+    background: #5050ff;
+	border-radius:6px;
+}
+.view .mask,.view .content {
+  	width: 282px;
+	height: 330px;
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	left: -2px;
+	border-radius:6px;
+}
+.view h4 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background:none;
+   font-weight:400;
+   margin: 20px 19px 1px 10px;
+   font-family: 'Open Sans', sans-serif;
+   line-height: 1.6em;
+}
+.view p {
+  	font-size: 0.9em;
+	position: relative;
+	color: #FFF;
+	padding:20px 20px 0px 20px;
+	text-align: center;
+	line-height: 1.5em;
+}
+.view img {
+   transition: all 0.3s ease-in-out;
+}
+.view .mask {
+  background-color:#ff50ff;
+   transform: translateX(-300px);
+   filter: alpha(opacity=100);
+   opacity: 1;
+   transition: all 0.3s ease-in-out;
+}
+.view h3{transition: all 0.3s ease-in-out;}
+.view p {
+   color: #fff;
+   /*transition: all 0.2s linear;*/
+}
+.view:hover h3 {
+transform: translateX(400px);}
+.view:hover img {
+transform: translateX(400px);}
+.view:hover .mask {
+   transform: translateX(0px);
+}
