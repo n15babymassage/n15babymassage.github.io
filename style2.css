@@ -1,4 +1,29 @@
 /* style2.css */
+/* menu */
+nav ul {
+    background-color: tomato;
+    border-style: solid;
+    border-color: MediumVioletRed;
+    border-width: 2px;
+    padding: 10px;
+    width: 450px;
+    border-radius: 10px;
+margin:30px 0px 0px 450px}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: PapayaWhip;
+font-family: 'Helvetica', sans-serif;
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+
+
+/* sliding boxes */
 * {box-sizing: border-box;}
 body {  line-height: 1.42857143;
 background-color:#90c0ff}
