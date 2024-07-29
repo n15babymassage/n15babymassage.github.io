@@ -151,12 +151,12 @@ transform: translateX(400px);}
 .view:hover .mask {
    transform: translateX(0px);
 }
-.wideview {width: 410px;}
-.wideview .mask,.wideview .content {width: 413px;}
-.wideview:hover h3 {transform: translateX(410px);}
-.view:hover img {transform: translateX(410px);}
+.wideview {width: 415px;}
+.wideview .mask,.wideview .content {width: 418px;}
+.wideview:hover h3 {transform: translateX(415px);}
+.view:hover img {transform: translateX(415px);}
 .wideview .mask {
-   transform: translateX(-431px);
+   transform: translateX(-436px);
    transition: all 0.3s ease-in-out;}
 .rview{float:right}
 h3{margin-top: 55px}
