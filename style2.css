@@ -24,9 +24,12 @@ nav ul li a {
 
 
 /* sliding boxes */
+
+
 * {box-sizing: border-box;}
 body {  line-height: 1.42857143;
-background-color:#90c0ff}
+background-color:#90c0ff;
+}
 img {  vertical-align: middle;}
 .container {
   padding-right: 15px;
@@ -166,42 +169,136 @@ margin-right:50px;
 margin-top:16px;
 margin-bottom:16px;
 padding:0.01em 16px 0.01em 16px;
+width:50%;/*added this line and following*/
+margin-left:25%
 }
 .qtext{margin-top:-40px;
 font-size:24px;
 margin-bottom:1.2em;}
-/*another type of quote*/
-.test {
-  border: 2px solid #ccc;
-  background-color: #eee;
-  border-radius: 5px;
-  padding: 16px;
-  margin: 16px 0;
-font-family: Verdana, sans-serif;
-    line-height: 1.5;
-width:50%;
-margin-left:25%
+/*remove below here on GitHub*/
+/*add below here*/
+.bigv{display:flex;
+text-align:center;/*position:relative;width:33%*/}
+.bigw{/*position: relative;
+    min-height: 1px;
+    overflow-wrap: break-word;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+    align-content: flex-start;
+    align-items: flex-start;
+width:100px;
+transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;*/
+background-color: rgb(196 245 242);
+justify-content: center;
+text-align: center;
+    padding: 45px 25px 30px;
+    border-radius: 5px;
+margin:2%
 }
-.test::after {
-  content: "";
-  clear: both;
+/*.bigw h6{margin:20px;
+width:100%;
+position:relative;
+display:block;
+text-align: center;
+padding:45px 25px 30px;
+}
+
+.bigw p{width:100%;
+position:relative;
+display:block;
+text-align:center;
+box-sizing:border-box;}
+.bigv:before,
+.bigv:after,
+{
   display: table;
+  content: " ";
 }
-.test img {
-  float: left;
-  margin-right: 20px;
-  border-radius: 50%;
+
+.bigv:after{
+  clear: both;
+}*/
+.foot{background: rgb(23 20 237);color:white;padding:5px}
+.about{margin:5px;padding:5px}
+/*slideshow upfoot*/
+* {
+  box-sizing: border-box;
 }
-.test span {
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
   font-size: 20px;
-  margin-right: 15px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
-.test p{margin-top: 1.2em;
-    margin-bottom: 1.2em;
-    font-size: 15px;
-display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.centful{text-align:center;
+width:100%}
