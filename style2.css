@@ -1,14 +1,19 @@
 /* style2.css */
 /* menu */
+nav{text-align:center;
+width: 90%;
+    float: left;
+    display: block;
+    position: relative;}
 nav ul {
     background-color: tomato;
     border-style: solid;
     border-color: MediumVioletRed;
     border-width: 2px;
     padding: 10px;
-    width: 450px;
+    /*width: 450px;*/
     border-radius: 10px;
-margin:30px 0px 0px 450px}
+margin:30px 0px 0px 0px}
 nav ul li {
     list-style-type: none;
     display: inline;
@@ -20,8 +25,16 @@ font-family: 'Helvetica', sans-serif;
 nav ul li a {
     text-decoration: none;
 }
-
-
+.contact{vertical-align: middle;
+    float: left;
+    display: table-cell;
+    position: relative;
+    box-sizing: border-box;
+    width: 5%;
+max-height:65px}
+/*overall layout*/
+main{    position: relative;
+    top: 100px;}
 
 /* sliding boxes */
 
@@ -151,12 +164,12 @@ transform: translateX(400px);}
 .view:hover .mask {
    transform: translateX(0px);
 }
-.wideview {width: 415px;}
-.wideview .mask,.wideview .content {width: 418px;}
-.wideview:hover h3 {transform: translateX(415px);}
-.view:hover img {transform: translateX(415px);}
+.wideview {width: 410px;}
+.wideview .mask,.wideview .content {width: 413px;}
+.wideview:hover h3 {transform: translateX(410px);}
+.view:hover img {transform: translateX(410px);}
 .wideview .mask {
-   transform: translateX(-436px);
+   transform: translateX(-431px);
    transition: all 0.3s ease-in-out;}
 .rview{float:right}
 h3{margin-top: 55px}
@@ -300,5 +313,5 @@ box-sizing:border-box;}
 .demo:hover {
   opacity: 1;
 }
-.centful{text-align:center;
+.centful{text-align:center;height:68px;
 width:100%}
